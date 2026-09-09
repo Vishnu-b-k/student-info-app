@@ -126,6 +126,26 @@ body {
     color: var(--text-muted);
 }
 
+.contact-section {
+    background: rgba(0, 0, 0, 0.15);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 12px;
+    padding: 1.25rem 1.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.contact-section h3 {
+    margin-bottom: 0.75rem;
+    font-size: 1.1rem;
+    color: #a5b4fc;
+}
+
+.contact-section p {
+    margin-bottom: 0.4rem;
+    font-size: 0.95rem;
+    color: var(--text-muted);
+}
+
 @keyframes fadeIn {
     from {
         opacity: 0;
